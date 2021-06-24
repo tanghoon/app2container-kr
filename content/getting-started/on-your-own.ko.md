@@ -20,7 +20,7 @@ weight = 1
 #### 실습 환경 배포
 
 1. 아래의 Launch Stack 버튼을 클릭 하십시오.
-![ReferenceImage](images/cloudformation-launch-stack.ko.png)
+[![ReferenceImage](images/cloudformation-launch-stack.ko.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=App2ContainerWorkshop&templateURL=https://app2container-workshop-artifacts.s3-us-west-2.amazonaws.com/app2container_workshop_template.yml)
 2. 템플릿 지정에서 https://app2container-workshop-artifacts.s3-us-west-2.amazonaws.com/app2container_workshop_template.yml URL이 Amazon S3 URL 필드에 입력되었는지 확인하고 다음을 누르십시오.
 ![ReferenceImage](images/cloudformation-step1.ko.png)
 3. 스택 세부 정보 지정 화면에서 App2 Container Workshop이 스택 이름 필드에 입력되었는지 확인하고 다음을 누릅니다.

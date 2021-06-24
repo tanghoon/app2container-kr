@@ -49,6 +49,6 @@ weight = 1
 languageName = "English"
 
 [Languages.ko]
-title = "나의 AWS 워크샵"
+title = "AWS app2container workshop"
 weight = 2
 languageName = "Korean"

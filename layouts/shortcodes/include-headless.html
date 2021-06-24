@@ -1,0 +1,6 @@
+{{ $file := .Get 0 }}
+{{ $path := .Site.GetPage "/headless" }}
+{{ $reusablePages := $path.Resources.Match $file }}
+{{ range $reusablePages }}
+    {{- .Content  | markdownify}}
+{{ end }}

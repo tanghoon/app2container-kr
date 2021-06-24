@@ -1,0 +1,15 @@
+{{ $width := .Get "w" | default "1024" }}
+{{ $height := .Get "h" | default "720" }}
+{{ $start := .Get "s" | default "0" }}
+
+<br/>
+<iframe 
+width={{$width}} 
+height="{{$height}}" 
+src="https://www.youtube-nocookie.com/embed/{{.Get `id`}}"
+start="{{$start}}"
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+<br/>

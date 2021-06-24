@@ -1,0 +1,10 @@
+#MAC Feature , Hugo build and Local Files
+.DS_Store
+*code-workspace
+*test/
+my-asset
+*exe
+public
+*pptx
+*xlsx
+hugo.exe

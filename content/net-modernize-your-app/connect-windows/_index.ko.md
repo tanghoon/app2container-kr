@@ -14,17 +14,17 @@ weight = 51
 
    - 다음 단계에서 사용할 키를 메모장에 복사합니다.
 
-     <img src="/images/B/1/1.output.png" alt="1.output.png" style="zoom:100%;" />
+     ![referencedimage](images/1.output.ko.png)
 
    - EC2 서비스로 이동하여 **Source-NET-Webserver** 를 클릭하고 콘솔 오른쪽 상단에있는 **Connect**을 클릭합니다.
 
    - "인스턴스에 연결"화면에서 "RDP 클라이언트"를 클릭하고 아래와 같이 "암호 가져 오기"를 클릭합니다.
 
-     <img src="/images/B/1/2.net-get-password.png" alt="2.net-get-password" style="zoom:100%;" />
+     ![referencedimage](images/2.net-get-password.ko.png)
 
    - 표시된 암호를 메모장에 복사합니다.
 
-     <img src="/images/B/1/3.net-copy-password.png" alt="3.net-copy-password" style="zoom:100%;" />
+     ![referencedimage](images/3.net-copy-password.ko.png)
 
 2. #### Connect your Web Server via Session Manager
 
@@ -34,8 +34,9 @@ weight = 51
 
    - "인스턴스에 연결"화면에서 **Session Manager**를 클릭하고 아래와 같이 "Connect"을 클릭합니다.
 
-     <img src="/images/B/1/4.net-connect-session-manager.png" alt="4.net-connect-session-manager" style="zoom:100%;" />
+     ![referencedimage](images/4.net-connect-session-manager.ko.png)
 
    - 웹 서버에서 Powershell 콘솔에 직접 연결됩니다.
 
    
+

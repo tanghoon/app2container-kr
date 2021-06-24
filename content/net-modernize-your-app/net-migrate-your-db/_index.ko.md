@@ -1,6 +1,5 @@
 +++
-title = "-1. 데이터베이스 마이그레이션"
-chapter = true
+title = "1. 데이터베이스 마이그레이션"
 weight = 60
 
 +++
@@ -16,7 +15,7 @@ weight = 60
 
 [기본 백업 및 복원](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Procedural.Importing.html)의 세부 정보 및 제약 사항을 확인할 수 있습니다.
 
-<img src="/images/c/net-db-migration-overview.png" alt="net-db-migration-overview.png" style="zoom:100%;" />
+![db-migration](/images/net-db-migration-overview.png)
 
 이 실습에서는 다음 단계를 수행합니다.
 

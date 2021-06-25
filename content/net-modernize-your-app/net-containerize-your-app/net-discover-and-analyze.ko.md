@@ -63,9 +63,9 @@ App2container 프로세스는 애플리케이션 인벤토리를 생성하고 �
 
    1. 인벤토리 명령의 JSON 출력에서 애플리케이션의 애플리케이션 ID를 찾은 후 다음과 같이“app2container remote analyze –application-id <net-app-id> –target <source-server-private-IP>”명령을 실행합니다. net-app-id를 이전 단계에서 복사 한 애플리케이션 ID로 바꿉니다.
 
-
+      ```
       app2container remote analyze --application-id <net-app-id> --target <source-server-private-IP>
-   
+      ```   
 
       
 

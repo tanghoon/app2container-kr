@@ -1,0 +1,136 @@
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Modernize with AWS App2Container Workshop"
+theme = "learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[params]
+  #editURL = "https://github.com/aws-samples/application-migration-with-aws-workshop/edit/master/workshop/content/"
+  description = "Modernize with AWS App2Container Workshop"
+  author = "Semih Duru, Rahul Kulkarni, Ahmed Omran"
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "aws"
+  showVisitedLinks = true
+  disableSearch = false
+  disableAssetsBusting = true
+  disableLanguageSwitchingButton = false
+  disableShortcutsTitle = true
+  disableInlineCopyToClipBoard = true
+
+  [[menu.shortcuts]]
+  name = "<i class='fas fa-envelope'></i> Have questions?"
+  url = "mailto:app2container-workshop@amazon.com"
+  weight = 40
+
+  [[menu.shortcuts]]
+  name = "<i class='fas fa-poll'></i> Rate the workshop"
+  url = "https://eventbox.dev/survey/QRHSVTI"
+  weight = 50
+
+  [[menu.shortcuts]]
+  name = "<i class='fas fa-book-open'></i> More resources"
+  url = "https://aws.amazon.com/app2container/"
+  weight = 60
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = false
+
+[Languages]
+[Languages.en]
+title = "Modernize with AWS App2Container Workshop"
+weight = 40
+languageName = "English"
+
+
+  [[Languages.en.menu.shortcuts]]
+  name = "<i class='fas fa-envelope'></i> Have questions?"
+  url = "mailto:app2container-workshop@amazon.com"
+  weight = 40
+
+  [[Languages.en.menu.shortcuts]]
+  name = "<i class='fas fa-poll'></i> Rate the workshop"
+  url = "https://eventbox.dev/survey/QRHSVTI"
+  weight = 50
+
+  [[Languages.en.menu.shortcuts]]
+  name = "<i class='fas fa-book-open'></i> More resources"
+  url = "https://aws.amazon.com/app2container/"
+  weight = 60
+
+[Languages.es]
+title = "Modernice con AWS App2Container Workshop"
+weight = 70
+languageName = "Español"
+
+
+  [[Languages.es.menu.shortcuts]]
+  name = "<i class='fas fa-envelope'></i> ¿Tiene alguna pregunta?"
+  url = "mailto:app2container-workshop@amazon.com"
+  weight = 40
+
+  [[Languages.es.menu.shortcuts]]
+  name = "<i class='fas fa-poll'></i> Califique este workshop"
+  url = "https://eventbox.dev?code=QRHSVTI"
+  weight = 50
+
+  [[Languages.es.menu.shortcuts]]
+  name = "<i class='fas fa-book-open'></i> Más recursos"
+  url = "https://aws.amazon.com/app2container/"
+  weight = 60
+
+[Languages.it]
+title = "Modernizzare con AWS App2Container Workshop"
+weight = 40
+languageName = "Italian"
+
+
+  [[Languages.it.menu.shortcuts]]
+  name = "<i class='fas fa-envelope'></i> Avete domande?"
+  url = "mailto:app2container-workshop@amazon.com"
+  weight = 40
+
+  [[Languages.it.menu.shortcuts]]
+  name = "<i class='fas fa-poll'></i> Fornisci commenti"
+  url = "https://eventbox.dev/survey/QRHSVTI"
+  weight = 50
+
+  [[Languages.it.menu.shortcuts]]
+  name = "<i class='fas fa-book-open'></i> Più risorse"
+  url = "https://aws.amazon.com/app2container/"
+
+[Languages.ko]
+title = "AWS App2Container 모더나이제이션 워크샵"
+weight = 80
+languageName = "한글"
+
+
+  [[Languages.ko.menu.shortcuts]]
+  name = "<i class='fas fa-envelope'></i> 문의 사항"
+  url = "mailto:app2container-workshop@amazon.com"
+  weight = 40
+
+  [[Languages.ko.menu.shortcuts]]
+  name = "<i class='fas fa-poll'></i> 워크샵 평가"
+  url = "https://eventbox.dev/survey/QRHSVTI"
+  weight = 50
+
+  [[Languages.ko.menu.shortcuts]]
+  name = "<i class='fas fa-book-open'></i> 기술 지원 자료"
+  url = "https://aws.amazon.com/app2container/"
+  weight = 60

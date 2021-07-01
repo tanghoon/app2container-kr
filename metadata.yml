@@ -1,0 +1,27 @@
+#name - DNS-friendly name for the workshop. This will be used when generating the hosting URL (ie. https://my-first-workshop.workshops.aws/)
+name: App2Container Workshop Guide
+#title - The title of your workshop
+title: App2Container Workshop Guide
+#description - A short description that will be displayed in search results
+description: App2Container Workshop Guide
+#categories - Refer to official AWS categories covered by the workshop content here
+categories:
+  - Application Migration
+  - Modernization
+#services - Refer to the official AWS service names covered by the workshop content here
+services:
+  - AWS Database Migration Service
+  - App2Container
+  - ECS, EKS
+#level - Approximate skill level needed for this workshop
+level: 200
+#duration - Estimated duration in minutes
+duration: 240
+#cost - Cost in USD. If the content is offered without cost, enter 0
+cost: 0
+#author - Amazon alias of the primary author of the content
+author: @omrahmed, @semid, @rahkulk
+#audience - Names of the personas associated with this workshop
+audience:
+  - IT Professional
+  - Developer

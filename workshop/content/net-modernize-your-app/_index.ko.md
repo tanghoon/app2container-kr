@@ -1,5 +1,5 @@
 +++
-title = ".NET 앱 모더나이즈"
+title = ".NET 앱 모더나이제이션"
 weight = 110
 pre = "<b>B. </b>"
 +++
